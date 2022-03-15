@@ -15,7 +15,7 @@ namespace Sherry.CustomJoysticks.Scripts {
 
         }
         
-            
+        
         [Serializable]
         public class Settings {
 

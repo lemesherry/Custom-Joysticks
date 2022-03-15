@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 28000001, guid: 44a17a5b205fcd349a24700e6f5615bd, type: 3}
+  title: 
+  sections:
+  - heading: CUSTOM JOYSTICKS README
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Custom Joysticks Asset includes multiple UI Joysticks which can be used for touch/mouse input in unity.'
+    linkText: 
+    url:
+  - heading: 
+    text: "The Custom Joysticks Asset package is compatible with Unity 2018 and onwards."
+    linkText: 
+    url: 
+  - heading: 'Get started: '
+    text: Drag and drop one of the prefab inside 'prefabs' folder into UI canvas, you'll see the 
+    prefab has attached joystick script component so inorder to get the joystick moved area values
+    you have to first get the reference to the script component and then you can use either 'Input'
+    variable which will return Vector2 of movement Axis or more specifically you can use Vertical
+    & Horizontal values differently. You can access values like this;
+    linkText:
+    url:
+  - heading:
+    text: > FloatingJoystick.Input => to get Vector2 ie ( x, y ) values.
+    linkText: 
+    url: 
+  - heading:
+    text: > FloatingJoystick.Vertical / FloatingJoystick.Horizonal => to get any specific axis.
+    linkText: 
+    url: 
+  - heading:
+    text: > FloatingJoystick.IsMoving => to check if joystick is moving or not to perform specific functionality after the joystick has moved.
+    linkText: 
+    url: 
+  - heading: 'Share your feedback on my Github!'
+    text:
+    linkText: Sherry
+    url: https://github.com/lemesherry
+  - heading
+    text:
+    linkText:
+    url:
+  - heading
+    text:
+    linkText:
+    url:
+  - heading
+    text:
+    linkText:
+    url:
+  - heading
+    text:
+    linkText:
+    url:
+  - heading
+    text:
+    linkText:
+    url:
+  - heading
+    text: Made with ♥ by Sherry
+    linkText:
+    url:
+  loadedLayout: 1
