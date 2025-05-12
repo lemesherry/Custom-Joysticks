@@ -15,14 +15,14 @@ Repository contains both `project files` and assetpackage `unitypackage` use it 
 
 > Just drag and drop one of the joysticks prefab in the canvas object.
 >
->  Use Input variable of Joystick class to get values of input according to the joystick.
+>  Use `Input` variable of Joystick class to get current value of joystick.
 
 
 ### USEFUL PUBLIC VARIABLES
-> IsMoving(bool) -> to Check if the joystick is moved or not.
+> IsMoving(bool) -> To check if the joystick is currently moving or not.
 >
-> Input(Vector2) -> to get vector of input ( x, y ) axis.
+> Input(Vector2) -> To get current horizontal and vertical value of joystick.
 >
-> Horizontal(float) -> to get float value of specific horizontal axis.
+> Horizontal(float) -> To get current value of just the horizontal axis of joystick.
 >
-> Vertical(float) -> to get float value of specific vertical axis.
+> Vertical(float) -> To get current value of just the vertical axis of joystick.
